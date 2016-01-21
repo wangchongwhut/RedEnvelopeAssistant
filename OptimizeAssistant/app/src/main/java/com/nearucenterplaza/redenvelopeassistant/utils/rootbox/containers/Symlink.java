@@ -24,24 +24,20 @@ package com.nearucenterplaza.redenvelopeassistant.utils.rootbox.containers;
 
 import java.io.File;
 
-public class Symlink
-{
+public class Symlink {
     protected final File file;
     protected final File symlinkPath;
 
-    public Symlink(File file, File path)
-    {
+    public Symlink(File file, File path) {
         this.file = file;
         symlinkPath = path;
     }
 
-    public File getFile()
-    {
+    public File getFile() {
         return this.file;
     }
 
-    public File getSymlinkPath()
-    {
+    public File getSymlinkPath() {
         return symlinkPath;
     }
 }

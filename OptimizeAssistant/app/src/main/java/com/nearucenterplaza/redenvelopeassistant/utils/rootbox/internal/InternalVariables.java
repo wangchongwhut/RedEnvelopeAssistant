@@ -32,8 +32,7 @@ import com.nearucenterplaza.redenvelopeassistant.utils.rootbox.containers.Permis
 import com.nearucenterplaza.redenvelopeassistant.utils.rootbox.containers.Symlink;
 
 
-public class InternalVariables
-{
+public class InternalVariables {
 
     // ----------------------
     // # Internal Variables #
@@ -61,8 +60,7 @@ public class InternalVariables
     protected static final String PS_REGEX = "^\\S+\\s+([0-9]+).*$";
     protected static Pattern psPattern;
 
-    static
-    {
+    static {
         psPattern = Pattern.compile(PS_REGEX);
     }
 }
