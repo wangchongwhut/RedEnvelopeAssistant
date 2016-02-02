@@ -52,8 +52,11 @@ public class HomeActivity extends ActionBarActivity implements NavigationDrawerF
             case 0:
                 fragmentManager.beginTransaction().replace(R.id.container, WeChatFragment.newInstance(position + 1)).commit();
                 break;
+//            case 1:
+//                fragmentManager.beginTransaction().replace(R.id.container, AlipayFragment.newInstance(position + 1)).commit();
+//                break;
             case 1:
-                fragmentManager.beginTransaction().replace(R.id.container, AlipayFragment.newInstance(position + 1)).commit();
+                fragmentManager.beginTransaction().replace(R.id.container, AboutFragment.newInstance(position + 1)).commit();
                 break;
             default:
                 fragmentManager.beginTransaction().replace(R.id.container, AboutFragment.newInstance(position + 1)).commit();
@@ -66,10 +69,10 @@ public class HomeActivity extends ActionBarActivity implements NavigationDrawerF
             case 1:
                 mTitle = getString(R.string.title_section1);
                 break;
+//            case 2:
+//                mTitle = getString(R.string.title_section2);
+//                break;
             case 2:
-                mTitle = getString(R.string.title_section2);
-                break;
-            case 3:
                 mTitle = getString(R.string.title_section3);
                 break;
         }

@@ -62,7 +62,8 @@ public class AboutFragment extends Fragment implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.about_go_github_tv:
-                goWeb(getActivity(), "https://github.com/waylife/RedEnvelopeAssistant");
+//                goWeb(getActivity(), "https://github.com/waylife/RedEnvelopeAssistant");
+                goWeb(getActivity(), "https://github.com/wangchongwhut/RedEnvelopeAssistant");
                 break;
         }
     }

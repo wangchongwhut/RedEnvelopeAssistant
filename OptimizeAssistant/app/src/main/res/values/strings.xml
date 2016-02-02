@@ -36,9 +36,9 @@
 	<string name="wechat_acc_service_start_notification">微信红包服务已启动</string>
 	<string name="ui_about_version">版本：</string>
 	<string name="ui_about_default_version">版本：1.0.0</string>
-	<string name="ui_about_description">此应用完全免费\n1.支付宝红包 （每次抢到红包后,使用本软件清除应用数据后，再登录支付宝即可继续抢红包）\n2.微信红包（请打开要抢红包的群页面，应用会自动无人值守抢红包，请保持屏幕常亮）</string>
+	<string name="ui_about_description">此应用完全免费\n1.微信红包（请打开要抢红包的群页面，应用会自动无人值守抢红包，请保持屏幕常亮），目前有三种抢红包模式可以设置\n1）后台自动抢红包模式：后台自动抢；\n2）安全抢红包模式：辅助拆红包；\n3）聊天页面抢红包：只抢当前聊天群的红包。</string>
 	<string name="ui_about_statement">使用本软件带来的任何风险问题，本人以及团队不负任何责任</string>
-	<string name="ui_about_author">By RxRead</string>
+	<string name="ui_about_author">By RxRead/WangChong</string>
 	<string name="ui_settings_instruction">运行微信红包助手前请先打开微信，然后按Home退到桌面，打开红包助手，点击开启红包服务，开启后即可自动运行</string>
 	<string name="ui_settings_language">语言设置</string>
 	<string name="ui_settings_auto_mode">后台自动抢红包模式</string>
