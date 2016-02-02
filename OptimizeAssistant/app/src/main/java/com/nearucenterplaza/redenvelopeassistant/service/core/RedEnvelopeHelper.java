@@ -17,7 +17,9 @@ import android.view.accessibility.AccessibilityNodeInfo;
 
 @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class RedEnvelopeHelper {
-
+    /**
+     * TIPS：目前兼容了微信6.3.8和6.3.9版本，其他版本还没有测试过。
+     */
     // 微信红包：聊天页面红包id，类型：android.widget.LinearLayout
     private static final String[] WECHAT_LUCKY_MONEY_VIEW_IDS = new String[]{"com.tencent.mm:id/ye", "com.tencent.mm:id/b_"};
     // 微信红包：拆红包id，类型：android.widget.Button
